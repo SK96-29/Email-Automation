@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Add any additional CSS styling here */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <p>Dear <?= name ?>,</p>
+  <p>Your marks for the Site Planning Review 3 are:</p>
+  
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td><?= name ?></td>
+      <td><?= marks ?></td>
+    </tr>
+  </table>
+
+  <p>Class Marks as follows:</p>
+  
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Marks</th>
+    </tr>
+    <? for (var i = 0; i < additionalData.length; i++) { ?>
+      <tr>
+        <td><?= additionalData[i].name ?></td>
+        <td><?= additionalData[i].marks ?></td>
+      </tr>
+    <? } ?>
+  </table>
+
+  <p>Best regards,</p>
+  <p>Coordinator (UP)</p>
+</body>
+</html>
