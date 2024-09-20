@@ -1,12 +1,18 @@
 Google Sheets Email Automation Project
 <br>
 Author: Shiv Kumar
+<br>
 Overview
-This project is designed to automate the process of sending emails directly from a Google Spreadsheet using Google Apps Script. The script allows for dynamic email content, including personalized data for each recipient and an HTML table format that displays important information. The project covers two main functions:
-
+<br>
+This project is designed to automate the process of sending emails directly from a Google Spreadsheet using Google Apps Script. The script allows for dynamic email content, including personalized data for each recipient and an HTML table format that displays important information.
+<br>
+The project covers two main functions:
+<br>
 Main Function: Sends personalized emails to recipients with data fetched from Sheet1.
 Additional Data Emails Function: Sends a separate email to a different set of recipients using data from Sheet2, presented in an HTML table format.
+<br>
 Features
+<br>
 Email Personalization: The script dynamically generates email content based on the data in the spreadsheet, ensuring each recipient receives information tailored to them.
 HTML Email Body: Both functions send emails with an HTML table, providing a clear and structured display of the recipient’s data.
 Error Handling: The script includes logging for cases where an email address is missing or invalid, allowing for easy troubleshooting.
